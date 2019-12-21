@@ -21,6 +21,7 @@ export default class extends Component {
       medium,
       large,
       alt,
+      onDownload,
       hideDownload,
       hideZoom,
       showRotate,
@@ -48,6 +49,7 @@ export default class extends Component {
             large={large}
             alt={alt}
             onClose={this.toggleModal}
+            onDownload={this.onDownload}
             hideDownload={hideDownload}
             hideZoom={hideZoom}
             showRotate={showRotate}

@@ -139,6 +139,7 @@ export default class Lightbox extends Component {
       large,
       alt,
       onClose,
+      onDownload,
       hideDownload,
       hideZoom,
       showRotate,
@@ -208,6 +209,7 @@ export default class Lightbox extends Component {
             toggleZoom={this.toggleZoom}
             toggleRotate={this.toggleRotate}
             onClose={onClose}
+            onDownload={onDownload}
             enableDownload={!hideDownload}
             enableZoom={!hideZoom}
             enableRotate={!!showRotate}
