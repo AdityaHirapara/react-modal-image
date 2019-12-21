@@ -49,7 +49,7 @@ export default class extends Component {
             large={large}
             alt={alt}
             onClose={this.toggleModal}
-            onDownload={this.onDownload}
+            onDownload={onDownload}
             hideDownload={hideDownload}
             hideZoom={hideZoom}
             showRotate={showRotate}
